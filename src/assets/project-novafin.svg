@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0F6FE" />
+    </linearGradient>
+    <linearGradient id="nfChart" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00B4D8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#4A90E2" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="nfLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="50%" stop-color="#4A90E2" />
+      <stop offset="100%" stop-color="#1E5FA8" />
+    </linearGradient>
+    <filter id="nfShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1E5FA8" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="500" fill="url(#nfBg)" />
+
+  <!-- Top App Navigation Bar -->
+  <rect x="0" y="0" width="800" height="60" fill="#FFFFFF" />
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#E2EBF5" stroke-width="1" />
+  <circle cx="40" cy="30" r="14" fill="#00B4D8" />
+  <rect x="68" y="24" width="80" height="12" rx="4" fill="#1E5FA8" />
+  <!-- Menu links -->
+  <rect x="220" y="26" width="50" height="8" rx="4" fill="#5A6B7D" />
+  <rect x="290" y="26" width="60" height="8" rx="4" fill="#4A90E2" />
+  <rect x="370" y="26" width="55" height="8" rx="4" fill="#5A6B7D" />
+  <rect x="690" y="18" width="75" height="26" rx="6" fill="#1E5FA8" />
+
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="70" height="440" fill="#FFFFFF" />
+  <line x1="70" y1="60" x2="70" y2="500" stroke="#E2EBF5" stroke-width="1" />
+  <circle cx="35" cy="100" r="16" fill="#E8F2FF" />
+  <circle cx="35" cy="150" r="16" fill="#E8F2FF" />
+  <circle cx="35" cy="200" r="16" fill="#E8F2FF" />
+  <circle cx="35" cy="250" r="16" fill="#E8F2FF" />
+
+  <!-- Main Dashboard Content -->
+  <!-- Stat Cards Row -->
+  <g filter="url(#nfShadow)">
+    <rect x="95" y="85" width="205" height="95" rx="14" fill="#FFFFFF" stroke="#E2EBF5" stroke-width="1" />
+    <text x="115" y="115" font-family="'Kanit', sans-serif" font-size="12" fill="#5A6B7D" font-weight="500">พอร์ตการลงทุนรวม</text>
+    <text x="115" y="145" font-family="'Kanit', sans-serif" font-size="22" fill="#1A2B3C" font-weight="700">฿3,842,500</text>
+    <rect x="220" y="128" width="65" height="20" rx="10" fill="#E8F9F0" />
+    <text x="252" y="142" font-family="'Kanit', sans-serif" font-size="11" fill="#10B981" font-weight="600" text-anchor="middle">+18.4%</text>
+
+    <rect x="320" y="85" width="205" height="95" rx="14" fill="#FFFFFF" stroke="#E2EBF5" stroke-width="1" />
+    <text x="340" y="115" font-family="'Kanit', sans-serif" font-size="12" fill="#5A6B7D" font-weight="500">กำไรสุทธิ (YTD)</text>
+    <text x="340" y="145" font-family="'Kanit', sans-serif" font-size="22" fill="#1E5FA8" font-weight="700">฿596,200</text>
+    <rect x="445" y="128" width="65" height="20" rx="10" fill="#E8F2FF" />
+    <text x="477" y="142" font-family="'Kanit', sans-serif" font-size="11" fill="#1E5FA8" font-weight="600" text-anchor="middle">+24.8%</text>
+
+    <rect x="545" y="85" width="220" height="95" rx="14" fill="#FFFFFF" stroke="#E2EBF5" stroke-width="1" />
+    <text x="565" y="115" font-family="'Kanit', sans-serif" font-size="12" fill="#5A6B7D" font-weight="500">คะแนนความปลอดภัย</text>
+    <text x="565" y="145" font-family="'Kanit', sans-serif" font-size="22" fill="#00B4D8" font-weight="700">A+ (Low Risk)</text>
+  </g>
+
+  <!-- Large Chart Card -->
+  <g filter="url(#nfShadow)">
+    <rect x="95" y="200" width="450" height="270" rx="16" fill="#FFFFFF" stroke="#E2EBF5" stroke-width="1" />
+    <text x="120" y="235" font-family="'Kanit', sans-serif" font-size="15" fill="#1A2B3C" font-weight="600">สถิติและแนวโน้มสินทรัพย์ (Real-time Analytics)</text>
+    <rect x="450" y="220" width="75" height="24" rx="6" fill="#F4F9FF" stroke="#E2EBF5" />
+    <text x="487" y="236" font-family="'Kanit', sans-serif" font-size="11" fill="#4A90E2" text-anchor="middle">ราย 30 วัน</text>
+
+    <!-- Chart Grid Lines -->
+    <line x1="120" y1="280" x2="520" y2="280" stroke="#F0F4F8" stroke-width="1" />
+    <line x1="120" y1="330" x2="520" y2="330" stroke="#F0F4F8" stroke-width="1" />
+    <line x1="120" y1="380" x2="520" y2="380" stroke="#F0F4F8" stroke-width="1" />
+    <line x1="120" y1="430" x2="520" y2="430" stroke="#F0F4F8" stroke-width="1" />
+
+    <!-- Chart Curve Fill & Stroke -->
+    <path d="M 120 400 Q 180 370 230 385 T 330 310 T 420 330 T 520 270 L 520 430 L 120 430 Z" fill="url(#nfChart)" />
+    <path d="M 120 400 Q 180 370 230 385 T 330 310 T 420 330 T 520 270" fill="none" stroke="url(#nfLine)" stroke-width="3.5" stroke-linecap="round" />
+    <!-- Glowing active point -->
+    <circle cx="520" cy="270" r="6" fill="#00B4D8" />
+    <circle cx="520" cy="270" r="12" fill="#00B4D8" opacity="0.3" />
+  </g>
+
+  <!-- Side Activity Card -->
+  <g filter="url(#nfShadow)">
+    <rect x="565" y="200" width="200" height="270" rx="16" fill="#FFFFFF" stroke="#E2EBF5" stroke-width="1" />
+    <text x="585" y="235" font-family="'Kanit', sans-serif" font-size="14" fill="#1A2B3C" font-weight="600">รายการล่าสุด</text>
+    
+    <!-- Item 1 -->
+    <circle cx="600" cy="275" r="14" fill="#E8F9F0" />
+    <rect x="625" y="267" width="70" height="8" rx="4" fill="#1A2B3C" />
+    <rect x="625" y="280" width="45" height="6" rx="3" fill="#8B9BAC" />
+    <text x="745" y="278" font-family="'Kanit', sans-serif" font-size="12" fill="#10B981" font-weight="600" text-anchor="end">+฿54,000</text>
+
+    <!-- Item 2 -->
+    <circle cx="600" cy="330" r="14" fill="#E8F2FF" />
+    <rect x="625" y="322" width="60" height="8" rx="4" fill="#1A2B3C" />
+    <rect x="625" y="335" width="50" height="6" rx="3" fill="#8B9BAC" />
+    <text x="745" y="333" font-family="'Kanit', sans-serif" font-size="12" fill="#1E5FA8" font-weight="600" text-anchor="end">-฿18,200</text>
+
+    <!-- Item 3 -->
+    <circle cx="600" cy="385" r="14" fill="#FFF4E6" />
+    <rect x="625" y="377" width="65" height="8" rx="4" fill="#1A2B3C" />
+    <rect x="625" y="390" width="40" height="6" rx="3" fill="#8B9BAC" />
+    <text x="745" y="388" font-family="'Kanit', sans-serif" font-size="12" fill="#F59E0B" font-weight="600" text-anchor="end">+฿32,150</text>
+
+    <rect x="585" y="425" width="160" height="30" rx="8" fill="#F4F9FF" stroke="#E2EBF5" />
+    <text x="665" y="445" font-family="'Kanit', sans-serif" font-size="12" fill="#4A90E2" font-weight="500" text-anchor="middle">ดูประวัติทั้งหมด →</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+.portfolio-scroll-progress-track {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  background: transparent;
+  z-index: 10001;
+  pointer-events: none;
+}
+
+.portfolio-scroll-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #00B4D8 0%, #4A90E2 50%, #1E5FA8 100%);
+  transform-origin: 0%;
+  box-shadow: 0 0 10px rgba(0, 180, 216, 0.7);
+}

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="acBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#EAF2FD" />
+    </linearGradient>
+    <linearGradient id="acItem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E1EEFC" />
+      <stop offset="100%" stop-color="#B8DAFA" />
+    </linearGradient>
+    <filter id="acShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1E5FA8" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#acBg)" />
+
+  <!-- Navbar -->
+  <rect x="0" y="0" width="800" height="60" fill="#FFFFFF" />
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#E2E8F0" stroke-width="1" />
+  <text x="50" y="38" font-family="'Kanit', sans-serif" font-size="18" font-weight="700" fill="#1A2B3C">ARTISAN<tspan fill="#4A90E2">.</tspan></text>
+  <rect x="250" y="26" width="60" height="8" rx="4" fill="#4A90E2" />
+  <rect x="330" y="26" width="55" height="8" rx="4" fill="#5A6B7D" />
+  <rect x="405" y="26" width="50" height="8" rx="4" fill="#5A6B7D" />
+  <!-- Cart badge -->
+  <circle cx="730" cy="30" r="15" fill="#E8F2FF" />
+  <circle cx="740" cy="22" r="6" fill="#00B4D8" />
+  <text x="740" y="25" font-family="'Kanit', sans-serif" font-size="9" fill="#FFFFFF" font-weight="bold" text-anchor="middle">3</text>
+
+  <!-- Hero Banner -->
+  <rect x="50" y="85" width="700" height="150" rx="16" fill="#FFFFFF" stroke="#E2EBF5" filter="url(#acShadow)" />
+  <text x="90" y="130" font-family="'Kanit', sans-serif" font-size="12" fill="#00B4D8" font-weight="600" letter-spacing="1">SPRING 2026 COLLECTION</text>
+  <text x="90" y="165" font-family="'Kanit', sans-serif" font-size="26" fill="#1A2B3C" font-weight="700">หัตถศิลป์แห่งความประณีต</text>
+  <text x="90" y="195" font-family="'Sarabun', sans-serif" font-size="14" fill="#5A6B7D">ดีไซน์มินิมอลผสานความร่วมสมัย ส่งตรงจากช่างฝีมือระดับพรีเมียม</text>
+  <rect x="90" y="208" width="110" height="18" rx="9" fill="#1E5FA8" />
+  <text x="145" y="221" font-family="'Kanit', sans-serif" font-size="10" fill="#FFFFFF" font-weight="600" text-anchor="middle">สำรวจคอลเลกชัน</text>
+
+  <!-- Hero Visual Accent (3D Ceramic / Vase Illustration) -->
+  <g transform="translate(560, 100)">
+    <circle cx="90" cy="60" r="55" fill="#E8F2FF" />
+    <path d="M 65 30 Q 90 20 115 30 L 110 80 Q 120 100 90 105 Q 60 100 70 80 Z" fill="url(#acItem)" />
+    <ellipse cx="90" cy="30" rx="25" ry="8" fill="#4A90E2" opacity="0.6" />
+    <circle cx="85" cy="55" r="4" fill="#FFFFFF" opacity="0.8" />
+  </g>
+
+  <!-- Product Cards Grid -->
+  <!-- Product 1 -->
+  <g filter="url(#acShadow)">
+    <rect x="50" y="255" width="215" height="215" rx="14" fill="#FFFFFF" stroke="#E2EBF5" />
+    <rect x="65" y="270" width="185" height="110" rx="10" fill="url(#acItem)" />
+    <!-- Product shape -->
+    <circle cx="157" cy="325" r="35" fill="#FFFFFF" opacity="0.8" />
+    <text x="65" y="405" font-family="'Kanit', sans-serif" font-size="14" font-weight="600" fill="#1A2B3C">Aura Ceramic Bowl</text>
+    <text x="65" y="425" font-family="'Sarabun', sans-serif" font-size="12" fill="#5A6B7D">เซรามิกเคลือบด้าน</text>
+    <text x="65" y="450" font-family="'Kanit', sans-serif" font-size="15" font-weight="700" fill="#1E5FA8">฿1,890</text>
+    <circle cx="230" cy="445" r="14" fill="#E8F2FF" />
+    <text x="230" y="449" font-family="'Kanit', sans-serif" font-size="16" fill="#1E5FA8" font-weight="bold" text-anchor="middle">+</text>
+  </g>
+
+  <!-- Product 2 -->
+  <g filter="url(#acShadow)">
+    <rect x="292" y="255" width="215" height="215" rx="14" fill="#FFFFFF" stroke="#E2EBF5" />
+    <rect x="307" y="270" width="185" height="110" rx="10" fill="#EBF4FE" />
+    <!-- Product shape -->
+    <rect x="375" y="295" width="50" height="60" rx="8" fill="#FFFFFF" opacity="0.8" />
+    <text x="307" y="405" font-family="'Kanit', sans-serif" font-size="14" font-weight="600" fill="#1A2B3C">Nordic Glass Carafe</text>
+    <text x="307" y="425" font-family="'Sarabun', sans-serif" font-size="12" fill="#5A6B7D">แก้วเป่าแฮนด์เมด</text>
+    <text x="307" y="450" font-family="'Kanit', sans-serif" font-size="15" font-weight="700" fill="#1E5FA8">฿2,450</text>
+    <circle cx="472" cy="445" r="14" fill="#1E5FA8" />
+    <text x="472" y="449" font-family="'Kanit', sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">+</text>
+  </g>
+
+  <!-- Product 3 -->
+  <g filter="url(#acShadow)">
+    <rect x="535" y="255" width="215" height="215" rx="14" fill="#FFFFFF" stroke="#E2EBF5" />
+    <rect x="550" y="270" width="185" height="110" rx="10" fill="#E6F0FA" />
+    <!-- Product shape -->
+    <polygon points="642,295 670,350 615,350" fill="#FFFFFF" opacity="0.8" />
+    <text x="550" y="405" font-family="'Kanit', sans-serif" font-size="14" font-weight="600" fill="#1A2B3C">Sculpted Marble Lamp</text>
+    <text x="550" y="425" font-family="'Sarabun', sans-serif" font-size="12" fill="#5A6B7D">โคมไฟหินอ่อนมินิมอล</text>
+    <text x="550" y="450" font-family="'Kanit', sans-serif" font-size="15" font-weight="700" fill="#1E5FA8">฿3,200</text>
+    <circle cx="715" cy="445" r="14" fill="#E8F2FF" />
+    <text x="715" y="449" font-family="'Kanit', sans-serif" font-size="16" fill="#1E5FA8" font-weight="bold" text-anchor="middle">+</text>
+  </g>
+</svg>

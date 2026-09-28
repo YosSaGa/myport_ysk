@@ -1,0 +1,93 @@
+.portfolio-preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portfolio-preloader-glow {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(0, 180, 216, 0.25) 0%, rgba(74, 144, 226, 0.1) 50%, transparent 70%);
+  filter: blur(60px);
+  animation: preloaderPulse 3s infinite alternate ease-in-out;
+}
+
+@keyframes preloaderPulse {
+  0% { transform: scale(0.9); opacity: 0.6; }
+  100% { transform: scale(1.15); opacity: 1; }
+}
+
+.portfolio-preloader-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.portfolio-preloader-logo {
+  position: relative;
+}
+
+.portfolio-preloader-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: var(--radius-base);
+  background: rgba(232, 242, 255, 0.8);
+  border: 1px solid rgba(74, 144, 226, 0.3);
+  box-shadow: 0 10px 30px rgba(74, 144, 226, 0.15);
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.portfolio-preloader-badge .code-tag {
+  color: var(--color-blue-accent);
+}
+
+.portfolio-preloader-badge .name-tag {
+  color: var(--color-blue-dark);
+  letter-spacing: 0.1em;
+}
+
+.portfolio-preloader-title {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.portfolio-preloader-bar-wrap {
+  width: 220px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-blue-light);
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(74, 144, 226, 0.15);
+}
+
+.portfolio-preloader-bar {
+  height: 100%;
+  background: var(--grad-primary);
+  border-radius: 999px;
+  box-shadow: 0 0 12px rgba(0, 180, 216, 0.6);
+}
+
+.portfolio-preloader-counter {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-blue-mid);
+}

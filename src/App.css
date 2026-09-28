@@ -1,0 +1,52 @@
+.portfolio-app {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--color-bg-primary);
+}
+
+.portfolio-main-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ambient glow blobs in the background */
+.portfolio-ambient-blobs {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.portfolio-ambient-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.portfolio-ambient-blob.blob-top-right {
+  top: -120px;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(0, 180, 216, 0.25) 0%, rgba(74, 144, 226, 0.1) 60%, transparent 80%);
+}
+
+.portfolio-ambient-blob.blob-mid-left {
+  top: 35%;
+  left: -150px;
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, rgba(74, 144, 226, 0.2) 0%, rgba(0, 180, 216, 0.08) 60%, transparent 80%);
+}
+
+.portfolio-ambient-blob.blob-bottom-right {
+  bottom: 10%;
+  right: -120px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(30, 95, 168, 0.15) 0%, rgba(0, 180, 216, 0.1) 60%, transparent 80%);
+}
