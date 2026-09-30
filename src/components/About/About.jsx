@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import { 
-  Sparkles, Download, MapPin, Mail, Phone, 
+  Sparkles, Download, Mail, Phone, 
   Award, ShieldCheck, Flame, Compass
 } from 'lucide-react';
 import { personalInfo } from '../../data/portfolioData';
@@ -175,10 +175,6 @@ export default function About() {
 
               {/* Quick Contact & Details Pills */}
               <div className="about-quick-info">
-                <div className="info-item">
-                  <MapPin size={18} className="info-icon" />
-                  <span>{personalInfo.contact.location}</span>
-                </div>
                 <div className="info-item">
                   <Mail size={18} className="info-icon" />
                   <span>{personalInfo.contact.email}</span>
